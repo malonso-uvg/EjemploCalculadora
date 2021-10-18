@@ -27,6 +27,7 @@ public class Resta implements IOperacion {
 		valor2 = Integer.parseInt(in.nextLine()); 
 		System.out.println("El resultado de la resta ("+ valor1 + " - " + valor2 + ") es: " + operar(valor1,valor2));
 		in.close(); 
+		
 
 	}
 
