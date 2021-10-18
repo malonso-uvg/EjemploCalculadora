@@ -53,7 +53,7 @@ public class Division implements IOperacion {
 				
 		while (!valido)
 		{
-			System.out.println("Ingrese el divisor (Únicamente números enteros)");
+			System.out.println("Ingrese el divisor  (Únicamente números enteros)");
 			
 			try 
 			{
