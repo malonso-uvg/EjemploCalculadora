@@ -13,6 +13,7 @@ public class Division implements IOperacion {
 
 	private int divisor;
 	private int dividendo;
+	private int cociente;
 	boolean valido=false;
 	
 	Scanner in= new Scanner(System.in);
@@ -44,7 +45,10 @@ public class Division implements IOperacion {
 	@Override
 	public int operar(int valor1, int valor2) {
 		// TODO Auto-generated method stub
-		return 0;
+		
+		cociente= dividendo / divisor;
+		
+		return cociente;
 	}
 
 	@Override
