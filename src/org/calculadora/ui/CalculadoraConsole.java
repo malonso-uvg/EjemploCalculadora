@@ -18,7 +18,7 @@ public class CalculadoraConsole {
 		int opt = 0;
 		CalculadoraBase calculadora = new CalculadoraBase();
 		Scanner in = new Scanner(System.in);
-		IOperacion operar;
+		IOperacion operar = calculadora.getSumaEnteros();;
 		
 		do {
 			
@@ -55,7 +55,7 @@ public class CalculadoraConsole {
 			
 			case 6: {
 				System.out.println("Adios!");
-			}
+			}break;
 			
 			default:{
 				System.out.println("Opcion incorrecta, se selecciona suma");

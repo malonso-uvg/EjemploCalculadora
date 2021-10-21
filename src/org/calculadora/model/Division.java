@@ -46,7 +46,7 @@ public class Division implements IOperacion {
 	public int operar(int valor1, int valor2) {
 		// TODO Auto-generated method stub
 		
-		cociente= dividendo / divisor;
+		cociente= valor1 / valor2;
 		
 		return cociente;
 	}
@@ -99,6 +99,7 @@ public class Division implements IOperacion {
 	@Override
 	public void mostrarResultado() {
 		// TODO Auto-generated method stub
+		System.out.println("El cociente es: " + operar(getDividendo(), getDivisor()));
 
 	}
 

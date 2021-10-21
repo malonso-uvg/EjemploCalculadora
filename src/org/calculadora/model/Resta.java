@@ -25,17 +25,12 @@ public class Resta implements IOperacion {
 		valor1 = Integer.parseInt(in.nextLine());
 		System.out.println("----Ingrese el valor 2----");
 		valor2 = Integer.parseInt(in.nextLine()); 
-		System.out.println("El resultado de la resta ("+ valor1 + " - " + valor2 + ") es: " + operar(valor1,valor2));
-		in.close(); 
 		
-
 	}
 
 	@Override
 	public void mostrarResultado() {
-		System.out.println("--------Resta--------");
-		solicitarDatos(); 
-
+		System.out.println("El resultado de la resta ("+ valor1 + " - " + valor2 + ") es: " + operar(valor1,valor2));
 	}
 
 }
