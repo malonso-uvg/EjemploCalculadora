@@ -55,6 +55,9 @@ public class Saludos {
     public void SaludoCarlos() {
             System.out.println("Hola a todos soy Carlos");
         }
+	public void SaludoJose() {
+            System.out.println("Hola a todos soy Jose");
+        }
 
 <<<<<<< HEAD
 >>>>>>> f7575e7fdfe0e47bdf0bd10e385c3338f1ea84d0
