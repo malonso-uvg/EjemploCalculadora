@@ -24,4 +24,8 @@ public class Saludos {
         public void SaludoBrandon() {
             System.out.println("Hola a todos soy Brandon");
         }
+        
+    public void SaludoDiana(){
+    	System.out.println("Hola! Soy Diana c:");
+    }
 }
