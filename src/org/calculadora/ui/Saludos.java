@@ -16,4 +16,10 @@ public class Saludos {
 	public void SaludoJavier() {
 		System.out.println("Hola a todos soy Javier");
 	}
+	
+	public void SaudoJuan() {
+		System.out.println("Hola a todos soy Juan !!! :D");
+	}
+	
 }
+
