@@ -13,4 +13,12 @@ public class Saludos {
 		System.out.println("Hola a todos soy Moises");
 		System.out.println("Hola Soy Juan Luis :)");
 	}
+	
+	public void SaludoJavier() {
+		System.out.println("Hola a todos soy Javier");
+	}
+	
+	public void SaludoJose() {
+		System.out.println("Hola a todos soy José");
+	}
 }
