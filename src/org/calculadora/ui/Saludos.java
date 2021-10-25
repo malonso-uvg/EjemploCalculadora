@@ -17,12 +17,10 @@ public class Saludos {
 	public void SaludoJavier() {
 		System.out.println("Hola a todos soy Javier");
 	}
-<<<<<<< HEAD
-        public void saludoXavi(){
+     
+	public void saludoXavi(){
             System.out.println("Hola a todos soy Xavi");
-        }
-=======
-	
+    }
 
 	public void SaudoJuan() {
 		System.out.println("Hola a todos soy Juan !!! :D");
@@ -41,6 +39,5 @@ public class Saludos {
             System.out.println("Hola a todos soy Isaac");
         }
 
->>>>>>> f7575e7fdfe0e47bdf0bd10e385c3338f1ea84d0
 }
 
