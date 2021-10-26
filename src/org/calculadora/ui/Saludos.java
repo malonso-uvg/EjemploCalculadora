@@ -58,6 +58,10 @@ public class Saludos {
     public void SaludoCarlos() {
             System.out.println("Hola a todos soy Carlos");
         }
+    
+    public void SaludoAna() {
+        System.out.println("Hola a todos soy Ana");
+    }
 	
 
 
